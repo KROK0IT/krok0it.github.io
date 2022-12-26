@@ -1,0 +1,567 @@
+@font-face {
+    font-family: font1;
+    src: url(../fonts/20686.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(../fonts/ofont.ru_Adys.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; 
+
+}
+
+body{
+    background-color: #191A1C;
+}
+
+.head{
+    font-family: 'font1';
+    font-size: 32px;
+    color: white;
+    height: 275px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head_txt{
+
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 200px;
+    background-color: unset;
+}
+
+.background{
+    width: 1900px;
+}
+
+.list{
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: -150px;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+   list-style: none;
+   margin-left: 40px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
+}
+
+a:hover{
+    color: greenyellow;
+    font-size: 36px;
+}
+
+main{
+
+}
+
+.blok{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+
+}
+
+h1{
+    font-family: 'font2';
+    font-size: 72px;
+    color: white;
+}
+
+.podglav_txt{
+    font-family: 'font1';
+    font-size: 32px;
+    margin-top: 20px;
+    color: white;
+}
+
+.pozdravleniya{
+    display: flex;
+    flex-direction:column;
+    margin-left: 200px;
+
+}
+
+.pozdravleniya_txt{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+.txt_grup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.dinara{
+    width: 700px;
+}
+
+.dinara_pozdravlenie{
+    margin-top: 20px;
+font-size: 32px;
+font-family: 'font2';
+color: white;
+}
+
+.dinara_podpis{
+    font-family: 'font1';
+    font-size: 25px;
+    margin-top: 35px;
+    color: white;
+}
+
+.vika{
+    width: 900px;
+}
+
+.vika_pozdravlenie{
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: 'font2';
+    color: white;
+}
+    
+.vika_podpis{
+    font-family: 'font1';
+    font-size: 25px;
+    margin-top: 35px;
+    color: white;
+}
+
+.airat{
+    width: 700px;
+}
+
+.airat_pozdravlenie{
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: 'font2';
+    color: white;
+}
+        
+.airat_podpis{
+    font-family: 'font1';
+    font-size: 25px;
+    margin-top: 35px;
+    color: white;
+}
+
+.danya{
+    width: 900px;
+}
+
+.danya_pozdravlenie{
+    font-size: 32px;
+    font-family: 'font2';
+    color: white;
+}
+.dinar{
+    width: 900px;
+}
+            
+.danya_podpis{
+    font-family: 'font1';
+    font-size: 25px;
+    margin-top: 35px;
+    color: white;
+}
+
+.dinar_pozdravlenie{
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: 'font2';
+    color: white;
+}
+                
+.dinar_podpis{
+    font-family: 'font1';
+    font-size: 25px;
+    margin-top: 35px;
+    color: white;
+}
+
+.ya_pozdravlenie{
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: 'font2';
+    color: white;
+}
+                    
+.ya_podpis{
+    font-family: 'font1';
+    font-size: 25px;
+    margin-top: 35px;
+    color: white;
+}
+
+.pozdravlenie_stih{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.stih{
+    font-size: 32px;
+                font-family: 'font2';
+                color: white;
+}
+
+.galery{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.galery_podpis{
+    display: flex;
+    justify-content: center;
+}
+
+.photo_grup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img{
+    width: 600px;
+    transition: 0.6s;
+    border-radius: 17px;
+}
+
+.img:hover{
+    width: 650px;
+}
+
+.toTop{
+    padding: 5px;
+    cursor: pointer;
+    z-index: 9999;
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+}
+
+.toTop__btn{
+    width: 100px;
+    height: 50px;
+    left: 1380px;
+    top: 500px;
+    background: green;
+    border-radius: 7px;
+    font-family: 'PTSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: yellow;
+    margin-left: 100px;
+    transition: 0.6s;
+    border-color: yellow;
+}
+
+.toTop__btn:hover{
+    background:#191A1C ;
+    color:greenyellow ;
+    border-color: yellow;
+}
+
+@media screen and (max-width: 900px) {
+    .head_txt{
+        margin-top: -170px;
+        width: 400px;
+        font-size: 16px;
+        margin-left: 60px;
+    }
+
+    .background{
+        width: 413px;
+        margin-top: -50px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    li{
+        margin-top: 10px;
+    }
+
+    .list{
+        position: absolute;
+        margin-left: 250px;
+        margin-top: -170px;
+        font-size: 16px;
+        align-items: center;
+    }
+
+    .blok{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    
+    }
+    .glav_txt{
+        margin-left: 30px;
+    }
+    
+    h1{
+        font-family: 'font2';
+        font-size: 32px;
+        color: white;
+    }
+    
+    .podglav_txt{
+        font-family: 'font1';
+        font-size: 20px;
+        margin-top: 20px;
+        color: white;
+        margin-left: 120px;
+    }
+
+    .kartinka{
+        width: 400px;
+        margin-top: 70px;
+        margin-left: -13px;
+        margin-bottom: 40px;
+    }
+
+    .pozdravleniya_txt{
+        margin-left: 170px;
+
+    }
+
+    .pozdravleniya{
+        display: flex;
+        flex-direction:column;
+        margin-left: 20px;
+    
+    }
+
+    .txt_grup{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    .dinara{
+        width: 400px;
+        margin-top: 10px;
+    }
+    
+    .dinara_pozdravlenie{
+        font-size: 16px;
+        font-family: 'font2';
+        color: white;
+    }
+    
+    .dinara_podpis{
+        font-family: 'font1';
+        font-size: 16px;
+        margin-top: 55px;
+        color: white;
+    }
+    
+    .vika{
+        width: 400px;
+        margin-top: 20px;
+    }
+    
+    .vika_pozdravlenie{
+        font-size: 16px;
+        font-family: 'font2';
+        color: white;
+    }
+        
+    .vika_podpis{
+        font-family: 'font1';
+        font-size: 16px;
+        margin-top: 55px;
+        color: white;
+    }
+    
+    .airat{
+        width: 390px;
+        margin-top: -70px;
+    }
+    
+    .airat_pozdravlenie{
+        font-size: 16px;
+        font-family: 'font2';
+        color: white;
+    }
+            
+    .airat_podpis{
+        font-family: 'font1';
+        font-size: 16px;
+        margin-top: 55px;
+        color: white;
+    }
+    
+    .danya{
+        width: 390px;
+        margin-top: 55px;
+    }
+    
+    .danya_pozdravlenie{
+        font-size: 16px;
+        font-family: 'font2';
+        color: white;
+    }
+         
+    .danya_podpis{
+        font-family: 'font1';
+        font-size: 16px;
+        margin-top: 55px;
+        color: white;
+    }
+
+    .dinar{
+        width: 390px;
+        margin-top: 20px;
+    }
+
+    .dinar_pozdravlenie{
+        font-size: 16px;
+        font-family: 'font2';
+        color: white;
+    }
+                    
+    .dinar_podpis{
+        font-family: 'font1';
+        font-size: 16px;
+        margin-top: 35px;
+        color: white;
+    }
+
+    .ya{
+        width: 390px;
+        margin-top: -70px;
+    }
+    
+    .ya_pozdravlenie{
+        font-size: 16px;
+        font-family: 'font2';
+        color: white;
+    }
+                        
+    .ya_podpis{
+        font-family: 'font1';
+        font-size: 16px;
+        margin-top: 35px;
+        color: white;
+    }
+
+    .galery{
+        margin-left: 20px;
+        margin-right: 15px;
+        margin-top: 50px;
+    }
+    
+    .galery_podpis{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .photo_grup{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .img{
+        width: 180px;
+        transition: 0.6s;
+        border-radius: 17px;
+    }
+    
+    .img:hover{
+        width: 190px;
+    }
+    
+    .toTop{
+        padding: 5px;
+        cursor: pointer;
+        z-index: 9999;
+        bottom: 10px;
+        right: 50px;
+        position: fixed;
+    }
+    
+    .toTop__btn{
+        width: 60px;
+        height: 35px;
+        left: 1380px;
+        top: 500px;
+        background: green;
+        border-radius: 7px;
+        font-family: 'PTSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: yellow;
+        margin-left: 100px;
+        transition: 0.6s;
+        border-color: yellow;
+    }
+
+    .pozdravlenie_stih{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 15px;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .stih{
+        font-size: 16px;
+        font-family: 'font2';
+        color: white;
+    }
+    .smeshno{
+        font-size: 16px;
+        font-family: 'font2';
+        color: white;
+    }
+}
